@@ -7,7 +7,6 @@ class Alquileres{
    private $precio;
    private $tiempoAlquiler;
    private $nroTarjeta;
-   const TABLA = 'alquileres';
 
    public function __construct( $idAlquiler=null,$dniCliente,$CantPeliculas,$Precio,$TiempoAlquiler,$NroTarjeta){
       $this->idAlquiler = $idAlquiler;
